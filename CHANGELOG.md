@@ -1,3 +1,8 @@
+## v8.2.0-dev.5
+
+- Fix an issue where Reason runs into an infinite loop on a missing \n when the last line is a comment
+- Add version_git_commit value
+
 ## v8.2.0-dev.4
 
 - Updated to BuckleScript commit [2c44b7](https://github.com/BuckleScript/bucklescript/commit/2c44b732f4a5ff573a123cf8796bab77edeaed76)
