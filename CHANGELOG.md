@@ -1,3 +1,9 @@
+## v8.3.0-dev.2
+
+- Remove `version_git_commit` value again (doesn't feel useful)
+- Preserve comments on RE <-> RES convertions
+- Make sure RE -> RES convertion removes unnecessary Reason decorators
+
 ## v8.2.0-dev.5
 
 - Fix an issue where Reason runs into an infinite loop on a missing \n when the last line is a comment
